@@ -1,0 +1,138 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri1/graph/words.txt exp/tri1/final.mdl exp/tri1/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split4/1/utt2spk scp:data/train/split4/1/cmvn.scp scp:data/train/split4/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c > exp/tri1/decode_train/lat.1.gz" 
+# Started at Wed May  6 14:55:48 UTC 2026
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri1/graph/words.txt exp/tri1/final.mdl exp/tri1/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split4/1/utt2spk scp:data/train/split4/1/cmvn.scp scp:data/train/split4/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c > exp/tri1/decode_train/lat.1.gz' 
+add-deltas ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/train/split4/1/utt2spk scp:data/train/split4/1/cmvn.scp scp:data/train/split4/1/feats.scp ark:- 
+103-1240-0012 HAD IT BEEN ANY OTHER MAN AND HEAVENLY RACHEL DEATHLY PUTTING THIS AND THAT TOGETHER MIGHT HAVE GIVEN A PRETTY GOOD GUESS AS TO BOTH QUESTIONS BUT MATHEW SO REALLY WENT FROM HOME THAT IT MUST BE SOMETHING PRESSING AND UNUSUAL IT WAS TAKING HIM 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 103-1240-0012 is -7.71052 over 1517 frames.
+103-1240-0040 THERE IS NEVER ANYBODY TO BE HAD WITH THOSE STUPID HAVE AND A SOON AS YOU DO GET ONE BROKEN TO YOUR WAYS AND THOUGHT SOMETHING HES UP AND AFTER THE LOBSTER CALORIES ARE THE STATES AT FIRST MATCH YOU SUGGESTED GETTING A HOME BOY BUT I SAID NO FLAT TO THAT 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 103-1240-0040 is -7.81054 over 1465 frames.
+103-1240-0049 ITS MIND ON ANYTHING THAT WHEN HE DOES I ALWAYS FEEL ITS MY DUTY TO GIVE HIM AND ASKED FOR THE RISK THAT IS RISK SOME PRETTY NEAR EVERYTHING A BODY DOESNT THIS WORLD THERE IS RISK SOME PEOPLE HAVING CHILDREN OF THEIR OWN IF IT COMES TO THAT THEY DONT ALWAYS TURN OUT WELL 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 103-1240-0049 is -7.81102 over 1527 frames.
+103-1240-0054 RELIEF FOR THE LETTER FELT HER DOUBTS AND FEARS REVIVING UNDER THE INFLUENCE OF MESSAGE THINGS IT 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 103-1240-0054 is -8.03822 over 1632 frames.
+103-1240-0056 IT SEEMS AND CANADA WHEN THE NEW HOUSE FOR TO THINK 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 103-1240-0056 is -8.01922 over 1430 frames.
+103-1241-0022 SO ALL QUESTIONS AND EXPLANATIONS MIGHT AS WELL BE DIFFERENT GAMES I AM SORRY THE HORSE IS OVER IN THE YEAR GIVE ME YOUR BAG OH I CAN CARRY IT THE CHILD RESPOND TO YOU 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 103-1241-0022 is -7.83632 over 1633 frames.
+103-1241-0024 BUT I WAS ENOUGH 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 103-1241-0024 is -8.19729 over 1587 frames.
+103-1241-0032 BUT I DO HOPE THAT SOMEDAY I SHOULD HAVE A WHITE DRESS THAT IS MY HIGHEST I JUST NEVER HAD A PRETTY DRESS IN MY LIFE THAT I CAN REMEMBER BUT OF COURSE ITS ALL THE MODEL AND THEN 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 103-1241-0032 is -7.98761 over 1399 frames.
+103-1241-0039 AND SHE SAID HOW TO THAT YOU GOING TO FIND OUT ABOUT THINGS WE DONT ASK QUESTIONS AND WHAT DOES WELL NOW I KNOW IF YOU 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 103-1241-0039 is -8.00186 over 1612 frames.
+118-121721-0001 WONDERFUL YOU WANT TO BE HEARD FROM WHO DONT THINK THERE IS A WONDER I WHICH EVERYONE IN THE SLEEPING CAR IS EAGER TO GIVE A WHITE BIRDS BACHELOR FROM LAND BACILLUS A STICK ON ATTACH 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 118-121721-0001 is -7.59547 over 1529 frames.
+118-121721-0012 JO MATCH IS PLAYING FOR JAIN THURSDAY ANNIVERSARY AND ONE BIRTH OBSERVED ONLY BY MEN IN CHILDREN BLOWER USEFUL PRODUCT OF THE DEAD WELL USE OF PRODUCT OF A LIFE BABY 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 118-121721-0012 is -7.31498 over 1483 frames.
+118-121721-0020 POWER THE IN GENERAL BIOLOGY NEW YORK BRACE SECURITY FOR THE TROUSERS GREATER SECURITY FOR THE STOMACH BRACELET SECURITY FOR THE PART BROKER BRAIN 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 118-121721-0020 is -7.46653 over 1519 frames.
+118-124588-0005 UNIVERSITY OF FAKES THE TIME WHICH GET STARTED FROM HERE WRITTEN FROM THE DOOR OF THE PEACOCK 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 118-124588-0005 is -8.03783 over 719 frames.
+118-124588-0012 AS BELONGING TO SOVEREIGN HE WAS WORKING WITH MUD IN FACT WAS LYING HAVE BEEN AND HAVE A LITTLE PART OF WATER WHEN IT WAS FOUND THEN THE SURFACE FINDING THE BODY BUT IN THIS THEY WERE DISAPPOINTED 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 118-124588-0012 is -7.82056 over 1372 frames.
+118-47824-0000 CHAPTER SOVEREIGN THE AMAZING MEANING IN THE SHADOWS OF THE OLD COURTYARD BARBIE RETURN TO HIS BIRTHDAY DONT DARE GOOD GAMES WORDS THERES NOTHING ELSE ANYONE CAN SAY 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 118-47824-0000 is -8.23285 over 1499 frames.
+118-47824-0013 HAVE ANY RIGHT DONT GRAHAM SAID ILL BE WITH YOU AGAIN TONIGHT 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 118-47824-0013 is -8.00876 over 455 frames.
+118-47824-0018 HISTORY EXPLANATION RECORD HOUSE REPORT WHICH AT THE DIRECTION HE HAD FAILED THE MAIL THAT IS EXPLANATION BEEN DRAWN BY AN ACCUSED IN THE RISE GRAND MOVE TOWARD THE DOOR THEN JENKINS ENTER INTO ONE SIDE 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 118-47824-0018 is -8.20296 over 1401 frames.
+118-47824-0030 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 118-47824-0030 is -8.52628 over 273 frames.
+118-47824-0043 MASTER THE MALL AND ALWAYS HAS NOW HE LEFT THE FUTILITY OF THEIR EFFORTS TO SOUND IS PURPOSES TO LIMIT HIS FREEDOM OF ACTION COMMUNICATION TO EXPLORE 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 118-47824-0043 is -8.34128 over 1513 frames.
+118-47824-0055 THERE WAS AN IRONICAL JUSTICE IN THE CONDITION OF THE OLD CEMETERY AND RECEIVE PATTERNS FATHER LIKE EVERYTHING ABOUT THE SERIOUS SALES BLACK TIME 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 118-47824-0055 is -8.25145 over 1354 frames.
+118-47824-0082 CRIMSON AND CATHERINE ONE OF THE BLACK CLOTH MEN OPEN THE DOOR OF SALES BLACK PANTHER ROOM HE STUCK THE SIDE BEGINNING 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 118-47824-0082 is -8.12123 over 794 frames.
+125-121124-0025 AN ADVANCED TO MEET HIM WITH A SAD LOVE SMILE WELL SAID HE EXTENDING HIS HAND TO MONTY CRYSTAL 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 125-121124-0025 is -7.59749 over 796 frames.
+125-121124-0028 BUT WE ALL HAVE OUR FAULTS DO YOU KNOW COUNT THAT PERSONS OF OUR TIME OF LIFE NOT THAT YOU BELONG TO THE CLASS YOU ARE STILL A YOUNG MAN BUT AS I WAS SAYING PERSONS OF OUR TIME OF LIFE HAVE BEEN VERY UNFORTUNATE THIS YEAR 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 125-121124-0028 is -7.50654 over 1462 frames.
+125-121124-0044 IT IS INDEED SIT DOWN GLASS IT IS A FINE THING TO HAVE SUCH CREDITS REALLY IT IS ONLY IN FRANCE THESE THINGS ARE DONE FIND MILLION ON CROPS PAPER IT MUST BE SEEN TO BE BELIEVED 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 125-121124-0044 is -7.60936 over 1368 frames.
+125-121124-0049 WHAT HE STANDARD DO YOU NEED TO KEEP THAT MONEY EXCUSE ME EXCUSE ME BUT ALWAYS MONEY TO THE CHARITY FUND A DEPOSIT WHICH I PROMISE TO PAY THIS MORNING OH WELL THEN SEND MONTY CRYSTAL 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 125-121124-0049 is -7.57324 over 1427 frames.
+125-121124-0050 TELL ME A DIFFERENT FORM I WISHED FROM CURIOSITY TO TAKE PLACE THAT I MIGHT BE ABLE TO SAY THAT WITHOUT ANY ADVICE OR PREPARATION THE HOW HAD PAID ME FIND MILLION WITHOUT A MINUTE DELAY IT WOULD HAVE BEEN REMARKABLE BUT HERE YOUR BONES PAY ME DIFFERENTLY 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 125-121124-0050 is -7.79209 over 1696 frames.
+125-121124-0056 CRYSTAL SUM OF WONDER THOUSAND FRANCS OVER NOTHING TO MONTY CRYSTAL THE PARENTS WOULD COME TO ABOUT THAT SOME BUT KEEP IT AND WE SHOULD BE QUIETS COUNT SIT DOWN CAR ARE YOU SPEAKING SERIOUSLY 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 125-121124-0056 is -7.59082 over 1493 frames.
+125-121124-0057 I NEVER JOKE IS BANKERS CINEMA TO CRYSTAL IN A FREEZING MANNER WHICH REPELLENT PERTINENCE 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 125-121124-0057 is -7.61179 over 636 frames.
+125-121124-0062 THE CHILD IS PRESENT THEMSELVES TO USE FOR ME THE WIDOWS AND ORPHANS TO PUT ME TO RECEIVE ARMS TO THE AMOUNT OF FIND MILLION FROM YOU 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 125-121124-0062 is -7.69963 over 877 frames.
+125-121124-0064 YOU DIDNT SEE HIM I THINK YES WELL 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 125-121124-0064 is -7.4402 over 337 frames.
+125-121124-0070 HE HAS THREE UNLIMITED CREDITS ONE ON ME ONE ON CHILD ONE ON LAST FEET AND YOU SEE HERE TO CARELESSLY HE HAS GIVEN ME THE PREFERENCE BY LEAVING A BALANCE OF ON HER THOUSAND FRIENDS 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 125-121124-0070 is -7.59832 over 1309 frames.
+125-121124-0085 AFTER EXPRESSING A CUTE SYMPATHY WITH THE FATHER 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 125-121124-0085 is -7.64085 over 315 frames.
+125-121124-0088 FIND SEVERAL PAPERS LEFT AFTER EXPOSED TO YOU 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 125-121124-0088 is -7.6997 over 375 frames.
+125-121342-0016 ENDANGERED IT WAS AN ATMOSPHERE WHEN PERSON MARRIAGE AND DEATH FROM SECRET THINGS YOU REMEMBER ONE GAIN THIS OF I WOMEN DELIVERY BOY HAD BROUGHT IN A GREAT FUNERAL WAYS OF FRESH FLOWERS 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 125-121342-0016 is -7.62996 over 1271 frames.
+125-121342-0019 LOVE HATE FOUND PEOPLE CHRISTMAS LOVE HATE AND STUPIDITY HE MAY NOT SERVE ACCUSATIONS 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 125-121342-0019 is -7.973 over 1571 frames.
+150-126107-0006 IN THIS WAY THEY HAVE THE ADVANTAGE OF THE PRINCESSES WHO ARE FORCED TO MARRY BEFORE PRINCESS SOMETIMES ONE LOVELY EVENING AFTER WONDERING ABOUT FOR MANY DAYS 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 150-126107-0006 is -7.50712 over 1624 frames.
+150-126107-0013 STRONG LIFT OUT OF THE WATER TO LATER ON THE BACK BUT GRAVITATIONAL SEEKING THE MOMENT SHE LEFT THE WATER AWAY SHE WENT UP INTO THE AIR SCOLDING AND SCREAMING 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 150-126107-0013 is -7.75046 over 1259 frames.
+150-126107-0028 THE THING I AM THE ONLY PERSON IN MY FATHER IS KINGDOM THAT CANT FALL HERE THAT I SHOULD BE MOST HAPPY TO FALL IN WITH YOU ANYTIME YOU LIKE SET THE PRINCE DEVOTEDLY THANK YOU 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 150-126107-0028 is -7.47995 over 1604 frames.
+150-126107-0034 WILL YOU BE IN THE LATE TOMORROW NIGHT THE PRINCE VENTURE TASK TO BE SURE I WILL I DONT THINK SO PERHAPS WHATS THE PRINCESSES SO MUCH STRAIGHT ANSWER 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 150-126107-0034 is -7.37456 over 1137 frames.
+150-126112-0016 THE FOR THIS OF ANY YOU I HAVE SOMETHING TO EAT THERE THEN SIR JI HOLDING OUT THE WINE TO HIM YOU MUST FEED ME I DID NOT MOVE MY HANDS 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 150-126112-0016 is -7.58062 over 1544 frames.
+150-132655-0013 IT TO YOU KNOW THAT YOU CALL ME THE TIP OF MY NOSE AND I UNDERWEAR AS YOU MAY SEE WHAT THE WORLD IS THIS 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 150-132655-0013 is -7.77952 over 1366 frames.
+150-132655-0015 IS IT DIE BUSINESS 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 150-132655-0015 is -7.84792 over 1201 frames.
+150-132655-0018 AND THE OF THE BEEN CONVERSATION HAD BEEN STRANGLED THE CONSTANTINOPLE AND THAT SEVERAL OF THEIR FRIENDS 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 150-132655-0018 is -7.95144 over 1616 frames.
+150-132655-0021 IT 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 150-132655-0021 is -8.2203 over 1458 frames.
+163-122947-0003 WHAT ARE MOST URGENT REQUIREMENTS WELL THEN LET US LOOK FOR THEM IN OUR LABORATORIES WHERE AS WE KNOW SO MANY THINGS LOSE THEMSELVES SO MANY THINGS GET QUITE LOST 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 163-122947-0003 is -7.27836 over 1529 frames.
+163-122947-0023 GRADATIONS OF RANK IN THE WORLD EVEN AMONG THINGS AND NOT ONLY AMONG MEN 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 163-122947-0023 is -7.05208 over 815 frames.
+163-122947-0061 IN WHICH SHAKESPEARES ART AND TASTE LIVES AS PERHAPS ON THE CHARGER OF NIPPLES WERE WITH ALL OUR SENSES AWAKE WE GO AWAY ENCHANTED AND VOLUNTARILY 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 163-122947-0061 is -7.39423 over 1235 frames.
+163-122947-0063 IS PRECISELY THE PERFECTION AND ULTIMATE MATURITY IN EVERY CULTURE AND ART THE ESSENTIALLY NOBLE IN WORKS AND MEN THERMOMETER SMOOTH SEA AND HELPS IN SELF SUFFICIENCY 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 163-122947-0063 is -7.36187 over 1444 frames.
+163-122947-0071 DRIVE AFTER POWER THEY CALLED FREEDOM AT FIRST IN THE IS A LOT TO HER AND WAS HIMSELF HOW WEEKS YOU DO HIM TO WORDS HIMSELF HOW THE WERE FOR THEM 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 163-122947-0071 is -7.42572 over 1624 frames.
+163-122947-0076 APPLIES TO THAT WHICH HAS TO BE FASHIONED BRUISED FORGED STRETCHED ROASTED AND YIELD REFINED 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 163-122947-0076 is -7.27522 over 955 frames.
+163-122947-0090 THAT LIST NOT BE AFRAID THINGS STILL REMAINED DAYS THEY HAVE ALWAYS BEEN I SEE NO ONE IN EUROPE WHO HAS OR DISCLOSES AN IDEA OF THE FACT THAT PHILOSOPHIES AND CONCERNING MORALS 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 163-122947-0090 is -7.39485 over 1428 frames.
+19-198-0033 THIS WAS STRANGE INDEED BUT STRANGER THINGS MAY BE GENERALLY ACCOUNTED FOR IF THEIR CAUSE BE FAIRLY SEARCHED OUT THERE WAS NOT ONE LORD IN THE NEIGHBOURHOOD NO NOT EVEN A PLANET 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 19-198-0033 is -7.14952 over 1429 frames.
+19-198-0037 SHE MUST SECRET ABROAD INVITED HER TO GO WITH THEM 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 19-198-0037 is -7.12106 over 422 frames.
+19-227-0009 ABOUT YOUNG GIRLS THAT HAVE BEEN SPOILT FOR HOME BY GREAT ACQUITTANCE THE MIRROR I THINK I WILL LOOK IT OUT FOR YOU SOMEDAY OR OTHER BECAUSE I AM SURE WHAT DO YOU GOOD CATHERINE SAID NO MORE AND WITH AN ENDEAVOUR TO DO RIGHT 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 19-227-0009 is -7.27803 over 1582 frames.
+19-227-0011 HISTORY OF THE ROOM TO FETCH THE BROKEN QUESTION ANXIOUS TO LOSE NO TIME IN ATTACKING SO DREADFUL A MELODY IT WAS SOME TIME BEFORE SHE COULD FIND WHAT SHE LOOK FOR AND OTHER FAMILY MATTERS ACCORDING TO DETAIL HER 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 19-227-0011 is -7.29175 over 1506 frames.
+19-227-0015 THE CHOICE FOR HIS APPEARANCE THERE ACKNOWLEDGING THAT AFTER WHAT HAD PASSED HE HAD LITTLE RIGHT TO EXPECT A WELCOME TO LATIN AND STATING HIS IMPATIENCE TO BE ASSURED OF MISS MORLAND HAVING REACHED HER HOME IN SAFETY 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 19-227-0015 is -7.35021 over 1494 frames.
+19-227-0018 THE HIS HEART JUST THAT MOMENT FOR MY L THIS IT WAS NOT JUST THAT THAT MOMENT IN HIS POWER TO SAY ANYTHING TO THE PURPOSE RETURNING IN SILENCE TO HIS SEAT THERE 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 19-227-0018 is -7.49429 over 1236 frames.
+19-227-0025 PROMISES MORLAND THINKING IT PROBABLE AS A SECONDARY CONSIDERATION IN HIS RATIO WAITING ON THEIR WORKING NEIGHBOURS THAT HE MIGHT HAVE SOME EXPLANATION TO GIVE UP HIS FATHERS BEHAVIOUR 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 19-227-0025 is -7.33956 over 1214 frames.
+19-227-0029 HAD BEEN YOU ONLY CAUSE OF GIVING HER A SERIOUS BUT IT IS A NEW CIRCUMSTANCES IN ROMANCE I ACKNOWLEDGE AND READ THE STORY OF AN HEROINES DIGNITY BUT IF IT IS NEW IN COMMON LIFE 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 19-227-0029 is -7.25815 over 1439 frames.
+19-227-0031 SCARCELY OPEN HERCULES DISMISS THEM TO THE ECSTASY OF ANOTHER TATA TET AND BEFORE IT WAS SUFFERED TO CLOSE SHE WAS UNABLE TO JUDGE HOW FAR HE WAS SANCTIONED BY PARENTAL AUTHORITY IN HIS PRESENT APPLICATION 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 19-227-0031 is -7.29939 over 1475 frames.
+LOG (apply-cmvn[5.5.1182~1-e02e3]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 63 utterances, errors on 0
+19-227-0064 CATHERINE AT ANY RATE HURT ENOUGH TO FEEL THAT INSPECTING GENERAL TELL ME OF EITHER MURDERING OR SHUTTING UP HIS WIFE SHE HAD SCARCELY SINCE HIS CHARACTER OR MAGNIFIED HIS CRUELTY 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 19-227-0064 is -7.3025 over 1370 frames.
+19-227-0070 AND BELIEVING THAT HARD TO BE HIS OWN WHICH HE HAD BEEN DIRECTED TO GAIN NO AND WORTHY RETRACTION AWAY CASSETTE CONSENT 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 19-227-0070 is -7.42179 over 840 frames.
+19-227-0072 THE GENERAL WAS FURIOUS IN HIS ANGER AND THEY PARTED IN DREADFUL THIS AGREEMENT HENRY IN AN EDUCATION OF MIND WHICH MANY SOLITARY HOURS WERE REQUIRED TO COMPOSE 
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance 19-227-0072 is -7.32248 over 1200 frames.
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:main():gmm-latgen-faster.cc:176) Time taken 86.6754s: real-time factor assuming 100 frames/sec is 0.108763
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:main():gmm-latgen-faster.cc:179) Done 63 utterances, failed for 0
+LOG (gmm-latgen-faster[5.5.1182~1-e02e3]:main():gmm-latgen-faster.cc:181) Overall log-likelihood per frame is -7.66049 over 79692 frames.
+# Accounting: time=86 threads=1
+# Ended (code 0) at Wed May  6 14:57:14 UTC 2026, elapsed time 86 seconds
